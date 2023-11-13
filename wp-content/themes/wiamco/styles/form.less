@@ -1,0 +1,191 @@
+// Form
+.btn {
+  display: inline-block;
+  padding: 5px 20px;
+  margin-bottom: 0;
+  font-family: @font-family-base;
+  font-size: 1.4rem;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  background-color: @white;
+  border: 1px solid @black;
+  color: @text-color;
+  border-radius: 20px;
+  .transition(all 0.5s);
+
+  &:hover {
+    color: @text-color;
+  }
+
+  &--phone-call {
+    position: relative;
+    padding: 15px 35px 15px 70px;
+    font-weight: 900;
+    font-size: 18px;
+    background-color: #eeeeee;
+    border: 0;
+    border-radius: 35px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: url(images/phone-call-g.png) center no-repeat;
+      background-size: contain;
+      width: 30px;
+      height: 30px;
+    }
+    &:hover {
+      background-color: @orange;
+    }
+  }
+  &-outline-primary {
+    border-color: @bg-primary;
+    background-color: transparent;
+    color: @bg-primary;
+    &:hover,
+    &:focus,
+    &:active {
+      border-color: @bg-primary-hover;
+      background-color: @bg-primary-hover;
+      color: @white;
+    }
+  }
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+.btn-md {
+  padding: 1.2rem 3.7rem;
+}
+.btn-lg {
+  padding: 1.2rem 3rem;
+  font-size: 1.4rem;
+}
+.btn-primary {
+  border-color: @bg-primary;
+  background-color: @bg-primary;
+  color: @white;
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: @bg-primary-hover;
+    background-color: @bg-primary-hover;
+    color: @white;
+  }
+}
+
+.button-shadow {
+  display: inline-block;
+  padding: 8px 30px;
+  margin-bottom: 0;
+  font-family: @font-family-base;
+  font-size: 1.6rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  background-color: @white;
+  border: 0;
+  color: @text-color;
+  border-radius: 30px;
+  text-transform: uppercase;
+  box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.36);
+}
+
+.btn-warning {
+  border-color: @bg-warning;
+  background-color: @bg-warning;
+  color: @white;
+  &::after {
+    border: 1px solid @bg-warning;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: @bg-warning-hover;
+    background-color: @bg-warning-hover;
+    color: @white;
+  }
+}
+
+.btn-group {
+  .btn + .btn {
+    margin-left: 30px;
+  }
+}
+.form-group {
+  margin-bottom: 2.5rem;
+
+  &-inline {
+    position: relative;
+    z-index: 1;
+    padding-right: 7rem;
+
+    .btn-send {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 5px;
+      min-width: 6rem;
+    }
+  }
+}
+
+.form-control {
+  border: 1px solid @border-color;
+  border-radius: 0;
+  padding: 12px 15px;
+  width: 100%;
+  min-width: 150px;
+  font-size: 1.4rem;
+  background-color: @white;
+  color: @text-color;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  border: 1px solid @border-color;
+  cursor: pointer;
+
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+::-webkit-input-placeholder {
+  color: @placeholder-color;
+}
+
+:-moz-placeholder {
+  color: @placeholder-color;
+}
+
+::-moz-placeholder {
+  color: @placeholder-color;
+}
+
+:-ms-input-placeholder {
+  color: @placeholder-color;
+}

@@ -1,0 +1,249 @@
+.site-footer {
+  background: url(images/bg-footer.png) center no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 25px;
+  a {
+    color: #fff;
+    &:hover {
+      color: @orange;
+    }
+  }
+  .copyright {
+    padding: 15px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 15px;
+      img {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
+        width: auto;
+      }
+    }
+  }
+}
+
+.bottom-box {
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+}
+
+.bottom-menu {
+  li {
+    margin-bottom: 10px;
+    &.shopping-cart-menu {
+      display: none;
+    }
+    a {
+      position: relative;
+      transition: all 0.3s;
+      &::before {
+        content: '\2192';
+        display: inline-block;
+        margin-right: 5px;
+      }
+      &:hover {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.social-footer {
+  li a {
+    display: flex;
+    align-items: center;
+    em {
+      margin-right: 5px;
+    }
+  }
+}
+#wps-telegram-chat {
+  z-index: 99999991;
+  bottom: 80px !important;
+  // right: 93px !important;
+  box-shadow: none;
+  &.hide {
+    background: none;
+    border: 0;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  &.hide #wps-telegram-chat-close,
+  #wps-telegram-chat-close {
+    position: fixed;
+    width: 52px !important;
+    height: 52px !important;
+    top: auto;
+    bottom: 24px;
+    right: 93px;
+    padding: 5px;
+    background-image: url(../../../wp-content/plugins/wps-telegram-chat/public/img/chat_icon.svg);
+    background-size: 80%;
+    background-color: #ed6523 !important;
+    border-radius: 50%;
+    border: none;
+    filter: invert(1);
+    &:hover {
+      background-color: #ee6523 !important;
+    }
+  }
+  #wps-telegram-chat-wrapp {
+  }
+}
+
+#qlwapp .qlwapp-toggle {
+  margin-bottom: 20px !important;
+}
+#qlwapp.qlwapp-bottom-right {
+  right: 136px !important;
+}
+#qlwapp.qlwapp-rounded.qlwapp-button .qlwapp-toggle {
+  height: auto;
+  padding: 10px;
+}
+#qlwapp.qlwapp-button .qlwapp-toggle .qlwapp-icon {
+  margin: 0 !important;
+  font-size: 34px;
+}
+.quick-chat-list {
+  display: none;
+  position: fixed;
+  z-index: 1003;
+  right: 100px;
+  bottom: 0;
+  .social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    li {
+      a {
+        display: block;
+        background: url(images/chat-icons.png) left top no-repeat;
+        width: 80px;
+        height: 77px;
+        &.link-whatapp {
+          &:hover {
+            background-position: 0 -77px;
+          }
+        }
+        &.link-telegram {
+          background-position: -83px 0;
+          &:hover {
+            background-position: -82px -77px;
+          }
+        }
+      }
+    }
+  }
+}
+.quick-support {
+  position: fixed;
+  z-index: 1003;
+  right: 25px;
+  bottom: 85px;
+  &__icon {
+    .btn-support {
+      width: 60px;
+      height: 55px;
+      background: url(images/headphones-circle.png) center no-repeat;
+      border: 0;
+      cursor: pointer;
+    }
+  }
+  &__content {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: 5px;
+    width: 255px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: @white;
+    color: #242425;
+    a {
+      color: @text-color;
+      &.orange {
+        color: @orange;
+      }
+    }
+    .btn-close {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      border: 0;
+      background: none;
+      padding: 5px;
+      cursor: pointer;
+    }
+    img {
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &.active {
+    .quick-support__content {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-xs-max) {
+  .content-footer {
+    padding-bottom: 50px;
+  }
+  .quick-chat-list {
+    right: 85px;
+    bottom: 5px;
+    .social li {
+      a {
+        width: 50px;
+        height: 48px;
+        background-size: contain;
+        &.link-whatapp {
+          background-image: url(images/whatapp-icon-blue.png);
+          background-position: 0 0;
+          &:hover {
+            background-position: 0 0;
+          }
+        }
+        &.link-telegram {
+          background-image: url(images/telegram-icon-blue.png);
+          background-position: 0 0;
+          &:hover {
+            background-position: 0 0;
+          }
+        }
+      }
+    }
+  }
+  .bottom-box__content {
+    margin-bottom: 30px;
+  }
+  #qlwapp .qlwapp-toggle {
+    margin-bottom: 10px !important;
+  }
+  #wps-telegram-chat {
+    &.hide #wps-telegram-chat-close,
+    #wps-telegram-chat-close {
+      bottom: 10px;
+    }
+  }
+  .chaport-container .chaport-launcher .chaport-launcher-button {
+    bottom: 10px !important;
+  }
+}

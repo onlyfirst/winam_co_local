@@ -1,0 +1,39 @@
+.services-block {
+  padding-top: 50px;
+}
+.service-item {
+  margin-bottom: 30px;
+  &__header {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__title {
+    font-size: 24px;
+    line-height: normal;
+  }
+  &__image {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: @screen-md-min) {
+  .service-item {
+    margin-bottom: 70px;
+    &:nth-child(2n) {
+      .row {
+        flex-direction: row-reverse;
+      }
+    }
+    &__title {
+      font-size: 30px;
+      span {
+        display: block;
+        color: @orange;
+      }
+    }
+    &__image {
+      text-align: left;
+    }
+  }
+}

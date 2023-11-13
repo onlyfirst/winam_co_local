@@ -1,0 +1,118 @@
+.newsletter {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  .emaillist {
+    margin-top: 20px;
+    flex: 1;
+    .es_subscription_form {
+      position: relative;
+      max-width: 516px;
+      .es-field-wrap {
+        margin-bottom: 0;
+        padding-right: 70px;
+        html[lang='pl-PL'] & {
+          padding-right: 70px;
+        }
+      }
+      .es_required_field {
+        background-color: #fff;
+        height: 60px;
+        padding: 13px 20px;
+        font-size: 1.6rem;
+        border: 0;
+        width: 100%;
+        outline: none;
+        border-radius: 30px 0 0 30px;
+      }
+      .es_subscription_form_submit {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70px;
+        padding: 0 35px;
+        cursor: pointer;
+        font-size: 0;
+        height: 60px;
+        border: 0;
+        color: @white;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 0 30px 30px 0;
+        background: url(images/arrow-right-w.png) center no-repeat #f5874f;
+      }
+    }
+    .subscription_form {
+      position: relative;
+      &.is-loading {
+        &::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: black;
+          opacity: 0.2;
+        }
+      }
+      .loading {
+        position: absolute;
+        left: 45%;
+        top: 25%;
+        transform: translate(-50%, -50%);
+      }
+      .form-group {
+        margin-bottom: 10px;
+      }
+      .subscription_form__control {
+        background-color: #fff;
+        padding: 10px 20px;
+        font-size: 1.6rem;
+        border: 0;
+        width: 100%;
+        outline: none;
+        &.error {
+          border-color: red;
+        }
+      }
+      .error {
+        color: red;
+      }
+      &__control_sunmit {
+        padding: 0;
+        width: 120px;
+        height: 71px;
+        border: 0;
+        border-radius: 0;
+        background: url(images/subscribe-btn.png) center no-repeat;
+        text-transform: uppercase;
+        background-size: contain;
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+  .desc {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+  }
+}
+#subscription_form_status {
+  padding-top: 20px;
+  .sub-status {
+  }
+}
+@media only screen and (min-width: @screen-sm-min) {
+  .newsletter {
+    h2 {
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+    .desc {
+      font-size: 1.8rem;
+    }
+  }
+}

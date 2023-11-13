@@ -1,0 +1,36 @@
+.footer-pagination {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .pagi-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.pagination {
+  display: inline-block;
+
+  a,
+  span {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 0;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin: 0 3px;
+    .transition(all 0.5s);
+
+    &:hover,
+    &.current {
+      color: @white;
+      background-color: @orange;
+      border-color: @orange;
+    }
+  }
+}

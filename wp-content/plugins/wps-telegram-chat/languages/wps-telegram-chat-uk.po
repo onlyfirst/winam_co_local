@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wps-telegram-chat\n"
+"POT-Creation-Date: 2023-05-22 16:30+0300\n"
+"PO-Revision-Date: 2023-05-22 16:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: wpSolution\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-wps-telegram-chat-admin.php:130
+msgid "Telegram Chat"
+msgstr "Telegram Чат"
+
+#: admin/class-wps-telegram-chat-admin.php:142
+#: admin/class-wps-telegram-chat-admin.php:234
+msgid "Settings"
+msgstr "Налаштування"
+
+#: admin/class-wps-telegram-chat-admin.php:200
+msgid ""
+"Hi, Your satisfaction is our top priority, we are ready to answer your "
+"questions..."
+msgstr "Привіт, Ваше задоволення є нашим головним пріоритетом."
+
+#: admin/class-wps-telegram-chat-admin.php:201
+msgid ""
+"We are offline, but send your email address and message here, we will "
+"contact you soon..."
+msgstr ""
+"Ми offline, але надішліть свій email та повідомлення тут, ми скоро з Вами "
+"зв'яжемося..."
+
+#: admin/class-wps-telegram-chat-admin.php:202
+#: admin/class-wps-telegram-chat-admin.php:209
+msgid "Type your message here..."
+msgstr "Напишіть повідомлення тут..."
+
+#: admin/class-wps-telegram-chat-admin.php:204
+msgid "Name"
+msgstr "Ім'я"
+
+#: admin/class-wps-telegram-chat-admin.php:205
+msgid "Enter your name"
+msgstr "Введіть ваше ім'я"
+
+#: admin/class-wps-telegram-chat-admin.php:206
+msgid "How to contact you?"
+msgstr "Як з вами зв'язатися?"
+
+#: admin/class-wps-telegram-chat-admin.php:207
+msgid "Enter e-mail or Phone number"
+msgstr "Ваш E-mail або номер телефону"
+
+#: admin/class-wps-telegram-chat-admin.php:208
+msgid "Subject of discussion"
+msgstr "Предмет обговорення"
+
+#: admin/class-wps-telegram-chat-admin.php:210
+msgid "Send Message"
+msgstr "Відправити"
+
+#: admin/class-wps-telegram-chat-admin.php:211
+msgid "✔ Thank you for contact us. We will respond to you soon. "
+msgstr "✔ Дякуємо за повідомлення. Ми відповімо найближчим часом. "
+
+#: admin/class-wps-telegram-chat-admin.php:232
+msgid "The <b>WPS Telegram Chat</b> has been updated, please check your"
+msgstr "Увага, <b>WPS Telegram Чат</b> було оновлено, будь ласка, перевірте"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:28
+msgid "sun"
+msgstr "ндл"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:29
+msgid "mon"
+msgstr "пнд"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:30
+msgid "tue"
+msgstr "втр"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:31
+msgid "wed"
+msgstr "срд"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:32
+msgid "thu"
+msgstr "чтв"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:33
+msgid "fri"
+msgstr "птн"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:34
+msgid "sat"
+msgstr "сбт"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:63
+#, php-format
+msgid "Version %s By"
+msgstr "Версія %s Від"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:66
+msgid "For more information"
+msgstr "Більше інформації"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:68
+msgid "Visit plugin site"
+msgstr "Читати на сайті"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:72
+msgid "A small gesture, becomes something bigger…"
+msgstr "Кожен жест має велике значення…"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:73
+msgid ""
+"Please consider making a donation to us. This plugin is free of any costs.\n"
+"\t\t\t\t\tWe keep it running by doing our regular work."
+msgstr ""
+"Будь ласка, подумайте про те, щоб зробити нам пожертву. Це безкоштовний "
+"плагін, але ми підтримуємо його у робочому стані, виконуючи свою рутинну "
+"роботу."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:88
+msgid "Bot options"
+msgstr "Налаштування бота"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:94
+msgid "Enabled"
+msgstr "Активувати"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:104
+msgid "Authentication token"
+msgstr "Ключ авторизації"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:111
+msgid ""
+"Each bot is given a unique authentication <b>token</b> when it is created.\n"
+"\t\t\t\t\tThe token looks something like <code>123456:ABC-DEF1234ghIkl-"
+"zyx57W2v1u123ew11</code>.\n"
+"\t\t\t\t\tYou can learn about obtaining tokens and generating new ones "
+"follow the link:"
+msgstr ""
+"Кожному роботу при створенні присвоюється унікальний <b>ключ (токен)</b> "
+"аутентифікації. Токен виглядає приблизно так: <code>123456:ABC-DEF1234ghIkl-"
+"zyx57W2v1u123ew11</code> Дізнатися про отримання токенів і генерацію нових "
+"можна перейшовши за посиланням:"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:116
+#: admin/partials/wps-telegram-chat-admin-display.php:261
+msgid "Read more"
+msgstr "Дізнатися більше"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:122
+msgid "Telegram chat ID"
+msgstr "ID чату в Telegram"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:129
+msgid ""
+"In the telegram messenger every user, chat, and group\n"
+"\t\t\t\t\tis having a unique ID so we need to find our chat ID:"
+msgstr ""
+"У месенджері Telegram кожен користувач, чат або група мають унікальний "
+"ідентифікатор, нам потрібно знайти ідентифікатор нашого чату:"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:138
+msgid "WebHook"
+msgstr "WebHook"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:144
+msgid "Check webHook"
+msgstr "Перевірити webHook"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:145
+msgid "Set webHook"
+msgstr "Встановити webHook"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:146
+msgid "Delete webHook"
+msgstr "Видалити webHook"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:150
+msgid ""
+"There are two mutually exclusive ways of receiving updates for your bot -\n"
+"\t\t\t\t\tthe <b>getUpdates</b> method on one hand and <b>webHook</b> on the "
+"other. We need to be able \n"
+"\t\t\t\t\tto connect and post updates with <b>getUpdates</b> method. This "
+"method will not work if an outgoing \n"
+"\t\t\t\t\t<b>webHook</b> is set up."
+msgstr ""
+"Є два взаємовиключні способи отримання оновлень для нашого бота - метод "
+"<b>getUpdates</b> з одного боку та <b>webHook</b> з іншого. Нам потрібно "
+"мати можливість підключатися та публікувати оновлення за допомогою методу "
+"<b>getUpdates</b>. Цей метод не працюватиме, якщо налаштовано вихідний "
+"<b>webHook</b>."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:162
+msgid "Chat Theme"
+msgstr "Вікно чату"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:169
+msgid "Only on specific pages"
+msgstr "Вибрані сторінки"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:176
+msgid "Show chat only on specific pages, by default chat shown on all pages."
+msgstr ""
+"Відображає чат лише на певних сторінках, за промовчанням чат відображається "
+"на всіх сторінках."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:180
+msgid "Separate multiple values with commas."
+msgstr "Кілька значень розділяйте комами."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:183
+msgid "If html body has class"
+msgstr "Якщо у html body є клас"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:189
+msgid ""
+"<b>Commonly used WP body classes</b>: home, blog, archive, page, single, "
+"logged-in"
+msgstr ""
+"<b>Класи WP, що часто використовуються, для body</b>: home, blog, archive, "
+"page, single, logged-in"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:193
+msgid "Or url contains a text"
+msgstr "Або в URL є текст"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:199
+msgid "<b>Commonly used URL tags</b>: contact, blog, about, support, shop"
+msgstr ""
+"<b>Теги, що часто використовуються в URL</b>: contact, blog, about, support, "
+"shop"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:205
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:214
+msgid "Welcome Text"
+msgstr "Вступний текст"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:222
+msgid "Offline Message"
+msgstr "Offline Повідомлення"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:227
+msgid ""
+"If the user does not receive a response within the first minute\n"
+"\t\t\t\t\tand depending on the \"Schedule\" an \"Offline Message\" will be "
+"displayed."
+msgstr ""
+"Якщо користувач не отримав відповіді протягом першої хвилини або в "
+"залежності від \"Розкладу\" буде відображатися \"Автономне / Offline "
+"повідомлення\"."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:235
+msgid "Placeholder"
+msgstr "Підказка"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:241
+msgid ""
+"The placeholder text specifies a short hint like\n"
+"\t\t\t\t\t\"Type your message here...\" in the input field before the user "
+"enters a value."
+msgstr ""
+"Коротка підказка, наприклад «Введіть тут ваше повідомлення...», у полі "
+"введення перед тим, як користувач введе значення."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:249
+msgid "Telegram Link"
+msgstr "Посилання на Telegram"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:256
+msgid ""
+"Telegram links let people contact you without knowing your phone number.\n"
+"\t\t\t\t\tIf the link is specified, then the telegram icon is shown in the "
+"chat header,\n"
+"\t\t\t\t\tclicking on which opens the Telegram App:"
+msgstr ""
+"Посилання Telegram дозволяють людям зв'язуватися з вами, не знаючи номер "
+"телефону. Якщо вказано посилання, то в шапці чату відображається іконка "
+"Telegram, клік на іконці запускає прямий чат в Telegram:"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:280
+msgid "User Avatar"
+msgstr "Аватар користувача"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:282
+#: admin/partials/wps-telegram-chat-admin-display.php:302
+msgid "Change image"
+msgstr "Змінити аватар"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:300
+msgid "Your Avatar"
+msgstr "Ваш Аватар"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:311
+msgid "Schedule"
+msgstr "Розклад"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:319
+msgid "Always onLine"
+msgstr "Завжди онлайн"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:344
+msgid "Start"
+msgstr "Початок"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:346
+#: admin/partials/wps-telegram-chat-admin-display.php:383
+msgid "H:"
+msgstr "H:"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:359
+#: admin/partials/wps-telegram-chat-admin-display.php:396
+msgid "M:"
+msgstr "M:"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:381
+msgid "End"
+msgstr "Кінець"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:420
+msgid "The start time must be less than the end time by at least 1 hour"
+msgstr ""
+"Час \"Початок\" повинен бути менше часу \"Кінець\" не менше ніж на 1 годину"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:428
+msgid "Contact Form"
+msgstr "Форма зворотного зв'язку"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:434
+msgid ""
+"Use the <b>[wps-telegram-feedback]</b> shortcode to insert a contact form "
+"into a WordPress\n"
+"\t\t\t\tpost or page, which will send a message to the telegram bot instead "
+"of email."
+msgstr ""
+"Використовуйте шорткод <b>[wps-telegram-feedback]</b>, щоб вставити "
+"контактну форму в WordPress пост або сторінку, яка надішле повідомлення "
+"телеграм-боту замість електронної пошти."
+
+#: admin/partials/wps-telegram-chat-admin-display.php:440
+msgid "Title for Name field"
+msgstr "Заголовок для Імені"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:449
+msgid "Placeholder for Name"
+msgstr "Підказка для Імені"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:458
+msgid "Title for E-mail field"
+msgstr "Заголовок для E-mail"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:467
+msgid "Placeholder for E-mail"
+msgstr "Підказка для E-mail"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:476
+msgid "Title for Subject field"
+msgstr "Заголовок для «Тема»"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:485
+msgid "Placeholder for Subject"
+msgstr "Підказка для «Тема»"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:494
+msgid "Submit button text"
+msgstr "Текст кнопки Надіслати"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:503
+msgid "Notice after sending"
+msgstr "Повідомлення після надсилання"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:513
+msgid "Notifications"
+msgstr "Сповіщення"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:522
+msgid "Receive emails for the site Admin into Telegram App"
+msgstr "Отримуйте пошту для адміністратора сайту в Telegram"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:529
+msgid "Save all changes"
+msgstr "Зберегти зміни"
+
+#: admin/partials/wps-telegram-chat-admin-display.php:532
+msgid "Delete Options"
+msgstr "Очистити налаштування"

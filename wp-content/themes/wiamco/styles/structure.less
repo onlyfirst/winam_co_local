@@ -1,0 +1,52 @@
+// Structure
+html {
+  font-size: 10px;
+}
+
+body {
+  background: @bgcolor;
+  color: @text-color;
+  font-family: @font-family-base;
+  font-size: @font-size-base;
+  line-height: @line-height;
+
+  &.admin-bar {
+    padding-top: 32px;
+  }
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  .clearfix();
+
+  &-full {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@media only screen and (max-width: 782px) {
+  body {
+    &.admin-bar {
+      padding-top: 46px;
+    }
+  }
+}
+@media only screen and (max-width: @screen-xs-max) {
+  .site-main {
+    padding-bottom: 40px;
+  }
+  .container-full {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1820px;
+  }
+}
